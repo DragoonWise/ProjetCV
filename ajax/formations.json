@@ -1,3 +1,20 @@
-{
-
-}
+[
+  {
+    "id": "1",
+    "title": "Baccalauréat Scientifique Spécialité Mathématiques",
+    "city":"Hénin-Beaumont",
+    "organism": "Lycée Pasteur",
+    "level": "",
+    "datestart": "1997",
+    "dateend": "1997"
+  },
+  {
+    "id": "2",
+    "title": "DUT Informatique en Génie informatique",
+    "city":"Lens",
+    "organism": "IUT",
+    "level": "Bac+2",
+    "datestart": "2000",
+    "dateend": "2001"
+  }
+]

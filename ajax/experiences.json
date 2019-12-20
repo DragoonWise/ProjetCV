@@ -1,15 +1,58 @@
 [
   {
     "id": "1",
-    "datestart": "",
-    "dateend": "",
-    "firm": "",
-    "mission": "",
+    "datestart": "04/2002",
+    "dateend": "01/2008",
+    "firm": "ETO",
+    "city": "Roubaix",
+    "mission": "Analyste Programmeur",
+    "desc": "Création et maintenance des outils pour exercer le métier",
+    "tasks": [
+      "",
+      ""
+    ],
+    "tools": "Langage/Delphi,Langage/VB.Net,Langage/C#,Langage/SQL"
+  },
+  {
+    "id": "2",
+    "datestart": "01/2008",
+    "dateend": "09/2012",
+    "firm": "ETO",
+    "city": "Roubaix",
+    "mission": "Chef de Projet Conception de Logiciel",
     "desc": "",
     "tasks": [
       "",
       ""
     ],
-    "tools": ""
+    "tools": "Langage/C#,Langage/SQL"
+  },
+  {
+    "id": "3",
+    "datestart": "09/2012",
+    "dateend": "08/2014",
+    "firm": "Follow The Sun",
+    "city": "Paris",
+    "mission": "Manageur de Projet, Conception de Logiciel",
+    "desc": "",
+    "tasks": [
+      "",
+      ""
+    ],
+    "tools": "Langage/C#,Langage/SQL"
+  },
+  {
+    "id": "4",
+    "datestart": "02/2017",
+    "dateend": "08/2017",
+    "firm": "Kertios",
+    "city": "Paris",
+    "mission": "Developpeur C#/BI",
+    "desc": "",
+    "tasks": [
+      "",
+      ""
+    ],
+    "tools": "Langage/C#,Langage/SQL"
   }
 ]
