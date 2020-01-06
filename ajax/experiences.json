@@ -11,7 +11,7 @@
       "",
       ""
     ],
-    "tools": "Langage/Delphi,Langage/VB.Net,Langage/C#,Langage/SQL"
+    "tools": "Langage/Delphi,Langage/VB.Net,Langage/C#,Langage/SQL,BDD/SQL Server 2000"
   },
   {
     "id": "2",
@@ -25,7 +25,7 @@
       "",
       ""
     ],
-    "tools": "Langage/C#,Langage/SQL"
+    "tools": "Langage/C#,Langage/SQL,BDD/SQL Server 2008"
   },
   {
     "id": "3",
@@ -39,7 +39,7 @@
       "",
       ""
     ],
-    "tools": "Langage/C#,Langage/SQL"
+    "tools": "Langage/C#,Langage/SQL,BDD/SQL Server 2012"
   },
   {
     "id": "4",
@@ -53,6 +53,6 @@
       "",
       ""
     ],
-    "tools": "Langage/C#,Langage/SQL"
+    "tools": "Langage/C#,Langage/SQL,BDD/mySQL"
   }
 ]

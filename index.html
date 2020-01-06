@@ -14,24 +14,39 @@
 <section id="blocName">
     <h3>{firstname} {lastname}</h3>
     <div>
-        {address}
+        <p>
+        Email : {email}
+        </p>
+        <p>
         {age}
-        {permis}
+        </p>
+        <p>
+        Permis : {permis}
+        </p>
     </div>
 </section>
 <section id="blocCompetence">
     <h3>Compétences</h3>
     <div>
         {compétences}
+        <p>Outils : <span class="repeatTools">{key} : {val}</span></p>
     </div>
 </section>
 <section id="blocExperience">
     <h3>Expériences</h3>
-    <div>
+    <div  class="container-fluid">
     </div>
 </section>
 <section id="blocFormation">
-
+    <h3>Formation</h3>
+    <div>
+        <div id="formation">
+            <p>Diplome : {title}<br>
+            Organisme : {organism}<br>
+            Lieu : {city}<br>
+            Date : {datestart} - {dateend}</p>
+        </div>
+    </div>
 </section>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="libs/js/bootstrap.min.js"></script>
