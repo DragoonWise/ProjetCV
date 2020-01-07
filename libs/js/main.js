@@ -74,20 +74,23 @@ $(function () {
             for (let cpt = 0; cpt < experiences.length; cpt++) {
                 ajout = templateExperience;
                 $.each(experiences[cpt], function (key, val) {
-                    ajout = ajout.replaceAll("{" + key + "}", val);
+                    if (key == "tasks") {
+                        ajout = ajout.replaceAll("{" + key + "}", "<span>Tâches :</span><ul><li>"+val.join("</li><li>")+"</li></ul>");
+                    } else
+                        ajout = ajout.replaceAll("{" + key + "}", val);
                 });
                 let templateTool = '<span class="repeatTools">{key} : {val}</span>';
                 let listTools = '';
                 let outils = decodeTools(experiences[cpt].tools);
-                outilsGlobal = decodeToolsWith(experiences[cpt].tools,outilsGlobal);
+                outilsGlobal = decodeToolsWith(experiences[cpt].tools, outilsGlobal);
                 $.each(outils, function (key, category) {
                     let ajout2 = templateTool;
                     ajout2 = ajout2.replace("{key}", key);
                     ajout2 = ajout2.replace("{val}", category.join(", "));
 
-                    listTools+="<br><span>&nbsp - </span>" + ajout2;
+                    listTools += "<br><span>&nbsp - </span>" + ajout2;
                 })
-                ajout = ajout.replace(templateTool,listTools);
+                ajout = ajout.replace(templateTool, listTools);
                 blocExperiences.innerHTML = ajout + blocExperiences.innerHTML;
             }
             let templateTool = '<span class="repeatTools">{key} : {val}</span>';
@@ -98,9 +101,9 @@ $(function () {
                 ajout = ajout.replace("{key}", key);
                 ajout = ajout.replace("{val}", category.join(", "));
 
-                listTools+="<br><span>&nbsp - </span>" + ajout;
+                listTools += "<br><span>&nbsp - </span>" + ajout;
             })
-            blocCompetences.innerHTML = blocCompetences.innerHTML.replace(templateTool,listTools);
+            blocCompetences.innerHTML = blocCompetences.innerHTML.replace(templateTool, listTools);
             if (personLoaded && formationsLoaded) {
                 functionalPage();
             }

@@ -8,8 +8,12 @@
     "mission": "Analyste Programmeur",
     "desc": "Création et maintenance des outils pour exercer le métier",
     "tasks": [
-      "",
-      ""
+      "Analyser les besoins du client",
+      "Etablir un cahier des charges",
+      "Rédiger une Spécification Techniche du Besoin (STB)",
+      "Réaliser un prototype de la solution technique pour validation par le donneur d'ordres",
+      "Concevoir et développer les programmes et applications informatiques",
+      "Déterminer les phases et procédures de tests fonctionnels et techniques"
     ],
     "tools": "Langage/Delphi,Langage/VB.Net,Langage/C#,Langage/SQL,BDD/SQL Server 2000"
   },
@@ -22,8 +26,12 @@
     "mission": "Chef de Projet Conception de Logiciel",
     "desc": "",
     "tasks": [
-      "",
-      ""
+      "Analyser les besoins du client",
+      "Etablir un cahier des charges",
+      "Rédiger une Spécification Techniche du Besoin (STB)",
+      "Réaliser un prototype de la solution technique pour validation par le donneur d'ordres",
+      "Concevoir et développer les programmes et applications informatiques",
+      "Déterminer les phases et procédures de tests fonctionnels et techniques"
     ],
     "tools": "Langage/C#,Langage/SQL,BDD/SQL Server 2008"
   },
@@ -36,8 +44,12 @@
     "mission": "Manageur de Projet, Conception de Logiciel",
     "desc": "",
     "tasks": [
-      "",
-      ""
+      "Analyser les besoins du client",
+      "Etablir un cahier des charges",
+      "Rédiger une Spécification Techniche du Besoin (STB)",
+      "Réaliser un prototype de la solution technique pour validation par le donneur d'ordres",
+      "Concevoir et développer les programmes et applications informatiques",
+      "Déterminer les phases et procédures de tests fonctionnels et techniques"
     ],
     "tools": "Langage/C#,Langage/SQL,BDD/SQL Server 2012"
   },
@@ -50,8 +62,12 @@
     "mission": "Developpeur C#/BI",
     "desc": "",
     "tasks": [
-      "",
-      ""
+      "Analyser les besoins du client",
+      "Etablir un cahier des charges",
+      "Rédiger une Spécification Techniche du Besoin (STB)",
+      "Réaliser un prototype de la solution technique pour validation par le donneur d'ordres",
+      "Concevoir et développer les programmes et applications informatiques",
+      "Déterminer les phases et procédures de tests fonctionnels et techniques"
     ],
     "tools": "Langage/C#,Langage/SQL,BDD/mySQL"
   }
